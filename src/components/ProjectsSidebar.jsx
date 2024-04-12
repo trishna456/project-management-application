@@ -8,9 +8,9 @@ export default function ProjectsSidebar ({onStartAddProject, projects}) {
             <div>
                 <Button onClick={onStartAddProject}>+ Add Projects</Button>
             </div>
-            <ul>
+            <ul className="mt-8">
                 {projects.map(project => <li key={project.id}>
-                    <button className="w-full text-left px-2 py-1 rounded-sm my-1 text-stone-400 hover:text-stone-800">{project.title}</button>
+                    <button className="w-full text-left px-2 py-1 rounded-sm my-1 text-stone-400 hover:text-stone-200">{project.title}</button>
                 </li>)} 
             </ul>
         </aside>
