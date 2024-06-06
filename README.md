@@ -55,9 +55,15 @@ cd project-management-application
 3. Install dependencies using npm or yarn:
 ```bash
 npm install
+# or
+yarn install
 ```
 
 4. Start the development server:
 ```bash
 npm start
+# or
+yarn start
 ```
+
+5. Open your web browser and navigate to http://localhost:3000 to view the project.
